@@ -1,0 +1,6 @@
+looping 
+  *for
+*while
+-----
+while:
+	while(cond)

@@ -1,0 +1,10 @@
+a=int (2**(3**2))
+b=int((2**3)**2)
+c=int(2**3**2)
+d=min(max(False,-3,-4), 2,7)
+x=56.236
+print("%.2f"%x)
+print(a)
+print(b)
+print(c)
+print(d)

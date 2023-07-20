@@ -1,0 +1,52 @@
+print("\t\nShapes")
+def Circle():
+    print("\t\nCIRCLE")
+    a=int(input("Enter the valu of a:"))
+    r=a*a
+    s=3.14*(a*a)
+    t=2*3.14*a
+    u=4/3*3.14*(a*a*a)
+    print("The Area of the Circle is:",r)
+    print("The Total Surface of Circle is:",s)
+    print("The Circumference of Circle is:",t)
+    print("The Volun of Circle is:",u)
+def Square():
+    print("\t\nSQUARE")
+    a=int(input("Enter the valu of a:"))
+    b=int(input("Enter the valu of b:"))
+    r=a*b
+    s=a*a
+    t=4*a
+    u=a*a*a
+    print("The Area of the Square is:",r)
+    print("The Total Surface of Square is:",s)
+    print("The Circumference of Square is:",t)
+    print("The Volun of Square is:",u)
+def Conerectangle():
+    print("\t\nCONE RECTANGLE")
+    a=int(input("Enter the valu of a:"))
+    b=int(input("Enter the valu of b:"))
+    r=a*b
+    s=a*a
+    t=4*a
+    u=a*a*a
+    print("The Area of the cone rectangle is:",r)
+    print("The Total Surface of cone rectangle is:",s)
+    print("The Circumference of cone rectangle is:",t)
+    print("The Volun of cone rectangle is:",u)
+def triangle():
+    print("\t\nTRIANGLE")
+    a=int(input("Enter the valu of a:"))
+    b=int(input("Enter the valu of b:"))
+    r=a*b
+    s=a*a
+    t=4*a
+    u=a*a*a
+    print("The Area of the triangle is:",r)
+    print("The Total Surface of triangle is:",s)
+    print("The Circumference of triangle is:",t)
+    print("The Volun of triangle is:",u)
+Circle()
+Square()
+Conerectangle()
+triangle()
